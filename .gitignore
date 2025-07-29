@@ -1,0 +1,34 @@
+## Compiled files
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+*.log
+*.vspscc
+*.vssscc
+
+## Visual Studio
+.vscode/
+.vs/
+
+## Packages
+*.nupkg
+packages/
+*.snupkg
+
+## Others
+_ReSharper*/
+**/TestResult*/
+*.DS_Store
+*.idea/
+*.env
+
+## ASP.NET
+wwwroot/node_modules/
+.env
