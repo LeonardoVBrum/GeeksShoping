@@ -8,14 +8,14 @@ namespace GeekShooping.Product.API.Context
     {
         public GeekContext()
         {
-           
+
         }
         public GeekContext(DbContextOptions<GeekContext> options) : base(options)
         {
-            
+
         }
 
-        DbSet<BaseEntity> Entidade { get; set; }
-        DbSet<ProductModel> Products { get; set; }
+        public DbSet<BaseEntity> Entidade { get; set; }
+        public DbSet<ProductModel> Products { get; set; }
     }
 }
